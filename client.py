@@ -74,7 +74,7 @@ def main() -> None:
     # invalid parameters
     elif error_code == 101:
         print(response)
-        print(f"[E] You sent invalid parameters: {response["msg"]["image"]}")
+        print(f"[E] You sent invalid parameters: {response['msg']['image']}")
     elif error_code == 1000:
         print(response)
         print(f"[E] Internal Server Error: {response['msg']['error']}")
